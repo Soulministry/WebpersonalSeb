@@ -1,0 +1,27 @@
+{% extends "deathcore/base.html" %}
+  <!-- el load static es para que cargue tacs automaticamente -->
+
+{% block title %} Mi web personal {% endblock %}
+{% load static %}
+{% block background %}{% static 'deathcore/img/home-bg.jpg' %}{% endblock %}
+
+  <!-- No olvidarme de llevar los headers a todas las paginas porque si no no carga la info ni las image -->
+
+{% block headers %}   
+<div class="site-heading">
+    <h1>Sebastián Oscar Navarro</h1>
+    <span class="subheading">Desarrollador Full Stack Python</span>
+  </div>
+{% endblock %}
+
+<!-- Contenido Principal -->
+<div class="container">
+  <div class="row">   
+
+  </div>  
+</div>
+
+
+{% block content %} 
+{% endblock %}
+
